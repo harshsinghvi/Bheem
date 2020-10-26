@@ -9,7 +9,7 @@ sudo apt-get install git;
 mkdir ~/Tools;
 mkdir ~/Recon;
 mkdir ~/wordlist;
-cp ~/Bheem/arsenal ~/arsenal;
+cp -r ~/Bheem/arsenal ~/arsenal;
 dir=~/Tools;
 go get -u github.com/m4ll0k/Aron;
 go get github.com/Ice3man543/SubOver;
