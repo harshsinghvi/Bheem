@@ -36,7 +36,8 @@ mv ~/Gf-Patterns/*.json ~/.gf;
 rm -rf ~/Gf-Patterns;
 wget https://raw.githubusercontent.com/devanshbatham/ParamSpider/master/gf_profiles/potential.json;
 mv ~/potential.json ~/.gf;
-#echo source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc;
+
+echo source '$GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc;
 cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf;
 GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
 git clone https://github.com/devanshbatham/FavFreak $dir/FavFreak;
